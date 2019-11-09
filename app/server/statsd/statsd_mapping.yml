@@ -1,0 +1,6 @@
+mappings:
+- match: "statsclient.*.*"
+  name: "host_process_memory"
+  labels:
+    host: "$1"
+    process: "$2"
